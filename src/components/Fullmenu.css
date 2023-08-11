@@ -1,0 +1,22 @@
+/*Toolbar*/
+.toolBarContainer
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
+	font-size:170%;
+	background-color: #43586b;
+	align-items: center;
+}
+div.toolBarContainer a
+{
+	text-decoration: none;
+	color: #e6eaed;
+	padding: 1% 9%;
+	border-radius: 5%;
+	text-align: center;
+}
+div.toolBarContainer a:hover
+{
+  color: #90d4ac;
+}
